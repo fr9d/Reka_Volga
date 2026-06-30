@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Круизы и туры</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+</head>
+<body>
+    <!-- НАВИГАЦИОННАЯ ПАНЕЛЬ -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+        <div class="container-fluid">
+            <div class="logo-container">
+                <img src="images/Logotip.png" alt="Logo" class="logo-img">
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Маршрут</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Новости</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Круизы и туры</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ГЕРОЙ-БАННЕР -->
+    <header class="hero-section text-center">
+        <div class="hero-text">
+            <h1 class="display-3 fw-bold">"Карта Волги и маршруты"</h1>
+        </div>
+    </header>
+
+    <!-- СЕТКА КАТЕГОРИЙ -->
+    <section class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <div class="row g-4">
+                
+                <!-- Колонка 1. Популярные направления -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h2 class="h3 category-title">Популярные направления</h2>
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Карточка 1 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Kazan.jpg" class="card-img-top rounded-3" alt="Казань">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Казань</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Татарская столица с богатой историей и культурой.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 2 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Nizhniy_Novgorod.jpg" class="card-img-top rounded-3" alt="Нижний Новгород">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Нижний Новгород</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Столица закатов и культурной архитектуры.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Колонка 2. Готовые круизы и туры -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <h2 class="h3 category-title">Готовые круизы и туры</h2>
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Карточка 3 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Yaroslavl.JPG" class="card-img-top rounded-3" alt="Ярославль">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Ярославль</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Древний город на Волге, состоящий в золотом кольце.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 4 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Samara.jpg" class="card-img-top rounded-3" alt="Самара">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Самара</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Город с разнообразным характером, богатой историей и архитектурой</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Колонка 3. Идеи для поездок -->
+                <div class="col-lg-4 col-md-12 col-12">
+                    <h2 class="h3 category-title">Идеи для поездок</h2>
+                    <div class="d-flex flex-column gap-4">
+                        <!-- Карточка 5 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Volgograd.jpg" class="card-img-top rounded-3" alt="Волгоград">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Волгоград</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Мамаев курган и "Родина мать зовёт!" - главный символ города-героя, музей-панорама, "Сталинградская битва", набережная Волги и скоростной трамвай с подземными станциями</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                        <!-- Карточка 6 -->
+                        <div class="card route-card rounded-4 p-3">
+                            <img src="images/Kostroma.jpg" alt="Кострома" class="card-img-top rounded-3">
+                            <div class="card-body px-0 pb-0">
+                                <h3 class="h5 fw-bold">Кострома</h3>
+                                <p class="card-text text-muted" style="font-size: 0.85rem;">Устье великой реки, знаменитые лотосовые поля и аутентичная рыбалка.</p>
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-1">Подробнее &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- СЕКЦИЯ С КАРТОЙ -->
+    <section class="py-5 bg-white" id="route-map-section">
+        <div class="container">
+            <h2 class="fw-bold mb-4">Карта маршрута</h2>
+            <div class="row align-items-center g-4">
+                <!-- Контейнер с интерактивной картой слева -->
+                <div class="col-lg-7 col-12">
+                    <div class="map-container">
+                        <iframe class="map-iframe" src="images/Karta_marshryta.jpg" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- Список выбора городов справа -->
+                <div class="col-lg-5 col-12">
+                    <div class="list-group city-list-group">
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Ярославль <span>&rarr;</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Кострома <span>&rarr;</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Нижний Новгород <span>&rarr;</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Казань <span>&rarr;</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Самара <span>&rarr;</span>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                            Волгоград <span>&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ (FOOTER) -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Колонка 1 -->
+                <div class="col-md-3 col-6 mb-4">
+                    <p class="fw-bold mb-3" style="font-size: 0.95rem;">Навигация:</p>
+                    <ul>
+                        <li><a href="#">Маршрут</a></li>
+                        <li><a href="#">Круизы и туры</a></li>
+                        <li><a href="#">Популярные направления</a></li>
+                        <li><a href="#">Идеи для поездок</a></li>
+                    </ul>
+                </div>
+                <!-- Колонка 2 -->
+                <div class="col-md-3 col-6 mb-4">
+                    <p class="fw-bold mb-3" style="font-size: 0.95rem;">Информация:</p>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О реке</a></li>
+                        <li><a href="#">Правила бронирования</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <!-- Колонка 3 -->
+                <div class="col-md-3 col-6 mb-4">
+                    <p class="fw-bold mb-3" style="font-size: 0.95rem;">Контакты:</p>
+                    <ul class="text-muted">
+                        <li>Email: riversofvolga.support@mail.ru</li>
+                        <li>Телефон: +7 (800) 555-35-35</li>
+                    </ul>
+                </div>
+                <!-- Колонка 4 -->
+                <div class="col-md-3 col-6 mb-4">
+                    <p class="fw-bold mb-3" style="font-size: 0.95rem;">Мы в соцсетях:</p>
+                    <ul>
+                        <li><a href="#" class="social-icon-link" title="ВКонтакте" style="color: blue;">Вконтакте</a></li>
+                        <li><a href="#" class="social-icon-link" title="Telegram" style="color: cyan;">Telegram</a></li>
+                        <li><a href="#" class="social-icon-link" title="YouTube" style="color: red;">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключение скрипта Bootstrap 5 для интерактивности (меню на мобильных) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
