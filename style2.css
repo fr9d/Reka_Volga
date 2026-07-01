@@ -39,7 +39,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/Volga.jpg) no-repeat center center;
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Volga.jpg) no-repeat center center;
             background-size: cover;
             height: 80vh;
             min-height: 400px;
